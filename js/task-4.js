@@ -1,6 +1,7 @@
 function getShippingCost(country) {
-  switch ((country, price)) {
-    case Chile:
+  price = "";
+  switch (country) {
+    case "Chile":
       price = 250;
       return `Shipping to ${country} will cost ${price} credits`;
       break;
